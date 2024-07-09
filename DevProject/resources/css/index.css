@@ -1,0 +1,63 @@
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+.banner {
+    background-color: aquamarine;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#Small_Loki {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.loki-section {
+    padding: 20px 50px
+}
+
+#Loki {
+    color: rgb(167, 0, 0);
+    font-size: 75px;
+}
+
+#greets ul {
+    list-style-type: none;
+}
+
+/* ../ is to exit out of current layer and up to the previous */
+.avatar {
+    background-image: url(../images/Loki.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+a.blue {
+    color: blue;
+}

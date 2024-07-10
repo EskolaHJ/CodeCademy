@@ -1,0 +1,23 @@
+body {
+    background-color: green;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: red;
+}
+
+p {
+    color: white;
+}
+
+.paragraph {
+    background-color: black;
+    padding: 10px;
+    z-index: 10;
+    text-align: center;
+}

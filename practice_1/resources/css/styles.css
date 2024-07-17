@@ -27,7 +27,7 @@ h6 {
 }
 
 #self {
-    color: red;
+    color: white;
     text-align: center;
     background-color: rgba(45, 157, 221, 0.7); /* rgba is a quick way to make the background color transparent */
     display: inline-block;

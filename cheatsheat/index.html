@@ -3,178 +3,379 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML and CSS Cheat Sheet</title>
-    <link rel="stylesheet" href="./resources/css/styles.css">
+    <title>HTML, CSS, and JavaScript Cheat Sheet</title>
+    <link rel="stylesheet" href="./resources/css/styles.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
     <header>
-        <h1>HTML and CSS Cheat Sheet</h1>
+        <h1>HTML, CSS, and JavaScript Cheat Sheet</h1> <!-- Page title -->
     </header>
-    <table>
-        <thead>
-            <tr>
-                <th>Tag/Property</th>
-                <th>Example</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- HTML Tags Section -->
-            <tr>
-                <th colspan="3">HTML Tags</th>
-            </tr>
-            <tr>
-                <td>&lt;a&gt;</td>
-                <td><code>&lt;a href="https://www.example.com"&gt;Link&lt;/a&gt;</code></td>
-                <td>Defines a hyperlink.</td>
-            </tr>
-            <tr>
-                <td>&lt;img&gt;</td>
-                <td><code>&lt;img src="image.jpg" alt="Description"&gt;</code></td>
-                <td>Embeds an image in the document.</td>
-            </tr>
-            <tr>
-                <td>&lt;div&gt;</td>
-                <td><code>&lt;div&gt;Content&lt;/div&gt;</code></td>
-                <td>Defines a division or a section in an HTML document.</td>
-            </tr>
-            <tr>
-                <td>&lt;span&gt;</td>
-                <td><code>&lt;span&gt;Text&lt;/span&gt;</code></td>
-                <td>Defines a section in a document.</td>
-            </tr>
-            <tr>
-                <td>&lt;table&gt;</td>
-                <td><code>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Data&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code></td>
-                <td>Defines a table.</td>
-            </tr>
-            <tr>
-                <td>&lt;h1&gt; - &lt;h6&gt;</td>
-                <td><code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code></td>
-                <td>Defines HTML headings from level 1 to 6.</td>
-            </tr>
-            <tr>
-                <td>&lt;p&gt;</td>
-                <td><code>&lt;p&gt;Paragraph&lt;/p&gt;</code></td>
-                <td>Defines a paragraph.</td>
-            </tr>
-            <tr>
-                <td>&lt;ul&gt;</td>
-                <td><code>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</code></td>
-                <td>Defines an unordered list.</td>
-            </tr>
-            <tr>
-                <td>&lt;ol&gt;</td>
-                <td><code>&lt;ol&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ol&gt;</code></td>
-                <td>Defines an ordered list.</td>
-            </tr>
-            <tr>
-                <td>&lt;li&gt;</td>
-                <td><code>&lt;li&gt;Item&lt;/li&gt;</code></td>
-                <td>Defines a list item.</td>
-            </tr>
-            <tr>
-                <td>&lt;form&gt;</td>
-                <td><code>&lt;form&gt;Form content&lt;/form&gt;</code></td>
-                <td>Defines an HTML form for user input.</td>
-            </tr>
-            <tr>
-                <td>&lt;input&gt;</td>
-                <td><code>&lt;input type="text"&gt;</code></td>
-                <td>Defines an input control.</td>
-            </tr>
-            <tr>
-                <td>&lt;button&gt;</td>
-                <td><code>&lt;button&gt;Click me&lt;/button&gt;</code></td>
-                <td>Defines a clickable button.</td>
-            </tr>
-            <tr>
-                <td>&lt;nav&gt;</td>
-                <td><code>&lt;nav&gt;Navigation&lt;/nav&gt;</code></td>
-                <td>Defines navigation links.</td>
-            </tr>
-            <tr>
-                <td>&lt;header&gt;</td>
-                <td><code>&lt;header&gt;Header content&lt;/header&gt;</code></td>
-                <td>Defines a header for a document or section.</td>
-            </tr>
-            <tr>
-                <td>&lt;footer&gt;</td>
-                <td><code>&lt;footer&gt;Footer content&lt;/footer&gt;</code></td>
-                <td>Defines a footer for a document or section.</td>
-            </tr>
+    <div class="container">
+        <div class="section">
+            <h2>HTML Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag/Property</th>
+                        <th>Example</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- HTML Tags Section -->
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td><code>&lt;a href="https://www.example.com"&gt;Link&lt;/a&gt;</code></td>
+                        <td>Defines a hyperlink.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td><code>&lt;img src="image.jpg" alt="Description"&gt;</code></td>
+                        <td>Embeds an image in the document.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td><code>&lt;div&gt;Content&lt;/div&gt;</code></td>
+                        <td>Defines a division or a section in an HTML document.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;span&gt;</td>
+                        <td><code>&lt;span&gt;Text&lt;/span&gt;</code></td>
+                        <td>Defines a section in a document.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td><code>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Data&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code></td>
+                        <td>Defines a table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;h1&gt; - &lt;h6&gt;</td>
+                        <td><code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code></td>
+                        <td>Defines HTML headings from level 1 to 6.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td><code>&lt;p&gt;Paragraph&lt;/p&gt;</code></td>
+                        <td>Defines a paragraph.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td><code>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</code></td>
+                        <td>Defines an unordered list.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td><code>&lt;ol&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ol&gt;</code></td>
+                        <td>Defines an ordered list.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;</td>
+                        <td><code>&lt;li&gt;Item&lt;/li&gt;</code></td>
+                        <td>Defines a list item.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;form&gt;</td>
+                        <td><code>&lt;form&gt;Form content&lt;/form&gt;</code></td>
+                        <td>Defines an HTML form for user input.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;input&gt;</td>
+                        <td><code>&lt;input type="text"&gt;</code></td>
+                        <td>Defines an input control.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;button&gt;</td>
+                        <td><code>&lt;button&gt;Click me&lt;/button&gt;</code></td>
+                        <td>Defines a clickable button.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;nav&gt;</td>
+                        <td><code>&lt;nav&gt;Navigation&lt;/nav&gt;</code></td>
+                        <td>Defines navigation links.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td><code>&lt;header&gt;Header content&lt;/header&gt;</code></td>
+                        <td>Defines a header for a document or section.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td><code>&lt;footer&gt;Footer content&lt;/footer&gt;</code></td>
+                        <td>Defines a footer for a document or section.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;section&gt;</td>
+                        <td><code>&lt;section&gt;Section content&lt;/section&gt;</code></td>
+                        <td>Defines a section in a document.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;article&gt;</td>
+                        <td><code>&lt;article&gt;Article content&lt;/article&gt;</code></td>
+                        <td>Defines an article.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;aside&gt;</td>
+                        <td><code>&lt;aside&gt;Aside content&lt;/aside&gt;</code></td>
+                        <td>Defines content aside from the main content.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;main&gt;</td>
+                        <td><code>&lt;main&gt;Main content&lt;/main&gt;</code></td>
+                        <td>Defines the main content of a document.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figure&gt;</td>
+                        <td><code>&lt;figure&gt;&lt;img src="image.jpg" alt="Description"&gt;&lt;figcaption&gt;Caption&lt;/figcaption&gt;&lt;/figure&gt;</code></td>
+                        <td>Groups media content with a caption.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figcaption&gt;</td>
+                        <td><code>&lt;figcaption&gt;Caption&lt;/figcaption&gt;</code></td>
+                        <td>Defines a caption for a figure element.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;code&gt;</td>
+                        <td><code>&lt;code&gt;Code snippet&lt;/code&gt;</code></td>
+                        <td>Defines a piece of computer code.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;pre&gt;</td>
+                        <td><code>&lt;pre&gt;Preformatted text&lt;/pre&gt;</code></td>
+                        <td>Defines preformatted text.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-            <!-- CSS Properties Section -->
-            <tr>
-                <th colspan="3">CSS Properties</th>
-            </tr>
-            <tr>
-                <td>color</td>
-                <td><code>color: red;</code></td>
-                <td>Sets the color of the text.</td>
-            </tr>
-            <tr>
-                <td>background-color</td>
-                <td><code>background-color: blue;</code></td>
-                <td>Sets the background color of an element.</td>
-            </tr>
-            <tr>
-                <td>font-size</td>
-                <td><code>font-size: 16px;</code></td>
-                <td>Sets the size of the font.</td>
-            </tr>
-            <tr>
-                <td>font-family</td>
-                <td><code>font-family: Arial, sans-serif;</code></td>
-                <td>Sets the font family of the text.</td>
-            </tr>
-            <tr>
-                <td>margin</td>
-                <td><code>margin: 10px;</code></td>
-                <td>Sets the margin around an element.</td>
-            </tr>
-            <tr>
-                <td>padding</td>
-                <td><code>padding: 10px;</code></td>
-                <td>Sets the padding inside an element.</td>
-            </tr>
-            <tr>
-                <td>border</td>
-                <td><code>border: 1px solid black;</code></td>
-                <td>Sets the border around an element.</td>
-            </tr>
-            <tr>
-                <td>width</td>
-                <td><code>width: 100px;</code></td>
-                <td>Sets the width of an element.</td>
-            </tr>
-            <tr>
-                <td>height</td>
-                <td><code>height: 100px;</code></td>
-                <td>Sets the height of an element.</td>
-            </tr>
-            <tr>
-                <td>text-align</td>
-                <td><code>text-align: center;</code></td>
-                <td>Sets the horizontal alignment of text.</td>
-            </tr>
-            <tr>
-                <td>display</td>
-                <td><code>display: block;</code></td>
-                <td>Sets the display behavior of an element.</td>
-            </tr>
-            <tr>
-                <td>position</td>
-                <td><code>position: absolute;</code></td>
-                <td>Sets the positioning method for an element.</td>
-            </tr>
-            <tr>
-                <td>top, right, bottom, left</td>
-                <td><code>top: 10px; left: 10px;</code></td>
-                <td>Sets the position of an absolutely positioned element.</td>
-            </tr>
-            <!-- Add more rows as needed -->
-        </tbody>
-    </table>
+        <div class="section">
+            <h2>CSS Properties</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag/Property</th>
+                        <th>Example</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>color</td>
+                        <td><code>color: red;</code></td>
+                        <td>Sets the color of the text.</td>
+                    </tr>
+                    <tr>
+                        <td>background-color</td>
+                        <td><code>background-color: blue;</code></td>
+                        <td>Sets the background color of an element.</td>
+                    </tr>
+                    <tr>
+                        <td>font-size</td>
+                        <td><code>font-size: 16px;</code></td>
+                        <td>Sets the size of the font.</td>
+                    </tr>
+                    <tr>
+                        <td>font-family</td>
+                        <td><code>font-family: Arial, sans-serif;</code></td>
+                        <td>Sets the font family of the text.</td>
+                    </tr>
+                    <tr>
+                        <td>margin</td>
+                        <td><code>margin: 10px;</code></td>
+                        <td>Sets the margin around an element.</td>
+                    </tr>
+                    <tr>
+                        <td>padding</td>
+                        <td><code>padding: 10px;</code></td>
+                        <td>Sets the padding inside an element.</td>
+                    </tr>
+                    <tr>
+                        <td>border</td>
+                        <td><code>border: 1px solid black;</code></td>
+                        <td>Sets the border around an element.</td>
+                    </tr>
+                    <tr>
+                        <td>width</td>
+                        <td><code>width: 100px;</code></td>
+                        <td>Sets the width of an element.</td>
+                    </tr>
+                    <tr>
+                        <td>height</td>
+                        <td><code>height: 100px;</code></td>
+                        <td>Sets the height of an element.</td>
+                    </tr>
+                    <tr>
+                        <td>text-align</td>
+                        <td><code>text-align: center;</code></td>
+                        <td>Sets the horizontal alignment of text.</td>
+                    </tr>
+                    <tr>
+                        <td>display</td>
+                        <td><code>display: block;</code></td>
+                        <td>Sets the display behavior of an element.</td>
+                    </tr>
+                    <tr>
+                        <td>position</td>
+                        <td><code>position: absolute;</code></td>
+                        <td>Sets the positioning method for an element.</td>
+                    </tr>
+                    <tr>
+                        <td>top, right, bottom, left</td>
+                        <td><code>top: 10px; left: 10px;</code></td>
+                        <td>Sets the position of an absolutely positioned element.</td>
+                    </tr>
+                    <tr>
+                        <td>float</td>
+                        <td><code>float: left;</code></td>
+                        <td>Specifies how an element should float.</td>
+                    </tr>
+                    <tr>
+                        <td>clear</td>
+                        <td><code>clear: both;</code></td>
+                        <td>Specifies what elements can float beside the cleared element.</td>
+                    </tr>
+                    <tr>
+                        <td>overflow</td>
+                        <td><code>overflow: hidden;</code></td>
+                        <td>Specifies what happens if content overflows an element's box.</td>
+                    </tr>
+                    <tr>
+                        <td>visibility</td>
+                        <td><code>visibility: hidden;</code></td>
+                        <td>Specifies whether an element is visible or hidden.</td>
+                    </tr>
+                    <tr>
+                        <td>opacity</td>
+                        <td><code>opacity: 0.5;</code></td>
+                        <td>Sets the opacity level of an element.</td>
+                    </tr>
+                    <tr>
+                        <td>z-index</td>
+                        <td><code>z-index: 10;</code></td>
+                        <td>Sets the stack order of an element.</td>
+                    </tr>
+                    <tr>
+                        <td>box-shadow</td>
+                        <td><code>box-shadow: 0px 4px 2px -2px gray;</code></td>
+                        <td>Adds shadow effects around an element's frame.</td>
+                    </tr>
+                    <tr>
+                        <td>border-radius</td>
+                        <td><code>border-radius: 10px;</code></td>
+                        <td>Defines the radius of the element's corners.</td>
+                    </tr>
+                    <tr>
+                        <td>background-image</td>
+                        <td><code>background-image: url('image.jpg');</code></td>
+                        <td>Sets the background image for an element.</td>
+                    </tr>
+                    <tr>
+                        <td>background-size</td>
+                        <td><code>background-size: cover;</code></td>
+                        <td>Specifies the size of the background image.</td>
+                    </tr>
+                    <tr>
+                        <td>transition</td>
+                        <td><code>transition: all 0.3s ease;</code></td>
+                        <td>Defines the transition effect between two states of an element.</td>
+                    </tr>
+                    <tr>
+                        <td>transform</td>
+                        <td><code>transform: rotate(45deg);</code></td>
+                        <td>Applies a 2D or 3D transformation to an element.</td>
+                    </tr>
+                    <tr>
+                        <td>flex</td>
+                        <td><code>flex: 1;</code></td>
+                        <td>Specifies how a flex item will grow relative to the rest of the flex items.</td>
+                    </tr>
+                    <tr>
+                        <td>flex-direction</td>
+                        <td><code>flex-direction: row;</code></td>
+                        <td>Defines the direction of the flexible items.</td>
+                    </tr>
+                    <tr>
+                        <td>justify-content</td>
+                        <td><code>justify-content: center;</code></td>
+                        <td>Aligns the flexible container's items when the items do not use all available space.</td>
+                    </tr>
+                    <tr>
+                        <td>align-items</td>
+                        <td><code>align-items: center;</code></td>
+                        <td>Aligns flex items along the cross axis.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>JavaScript Basics</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag/Property</th>
+                        <th>Example</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Variables</td>
+                        <td><code>let x = 10; // Declares a block-scoped variable</code></td>
+                        <td>Declares a block-scoped variable.</td>
+                    </tr>
+                    <tr>
+                        <td>Constants</td>
+                        <td><code>const PI = 3.14; // Declares a block-scoped, read-only constant</code></td>
+                        <td>Declares a block-scoped, read-only constant.</td>
+                    </tr>
+                    <tr>
+                        <td>Functions</td>
+                        <td><code>function myFunction() { /* code */ } // Declares a function</code></td>
+                        <td>Declares a function.</td>
+                    </tr>
+                    <tr>
+                        <td>Arrow Functions</td>
+                        <td><code>const myFunc = () => { /* code */ } // Declares an arrow function expression</code></td>
+                        <td>Declares an arrow function expression.</td>
+                    </tr>
+                    <tr>
+                        <td>Event Listeners</td>
+                        <td><code>element.addEventListener('click', function) // Adds an event listener to an element</code></td>
+                        <td>Adds an event listener to an element.</td>
+                    </tr>
+                    <tr>
+                        <td>Arrays</td>
+                        <td><code>let arr = [1, 2, 3]; // Declares an array</code></td>
+                        <td>Declares an array.</td>
+                    </tr>
+                    <tr>
+                        <td>Objects</td>
+                        <td><code>let obj = {key: 'value'}; // Declares an object</code></td>
+                        <td>Declares an object.</td>
+                    </tr>
+                    <tr>
+                        <td>Loops</td>
+                        <td><code>for (let i = 0; i &lt; 5; i++) { /* code */ } // A for loop</code></td>
+                        <td>Creates a loop that repeats code a specified number of times.</td>
+                    </tr>
+                    <tr>
+                        <td>Conditionals</td>
+                        <td><code>if (x &gt; 10) { /* code */ } // An if statement</code></td>
+                        <td>Executes code if a specified condition is true.</td>
+                    </tr>
+                    <tr>
+                        <td>DOM Manipulation</td>
+                        <td><code>document.getElementById('id').textContent = 'Hello'; // Changes the text content of an element</code></td>
+                        <td>Accesses and manipulates HTML elements.</td>
+                    </tr>
+                    <tr>
+                        <td>Console Log</td>
+                        <td><code>console.log('Hello World'); // Logs a message to the console</code></td>
+                        <td>Prints a message to the web console.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
 </html>

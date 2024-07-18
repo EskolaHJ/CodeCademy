@@ -1,61 +1,93 @@
+/* Basic styles for the body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* Sets the font family */
+    background-color: #f0f0f0; /* Sets the background color */
     margin: 0;
     padding: 20px;
 }
 
+/* Styles for the header */
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center; /* Centers the header text */
+    margin-bottom: 20px; /* Adds bottom margin */
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0 auto;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-th, td {
-    border: 1px solid #cccccc;
+/* Styles for the container */
+.container {
+    max-width: 1200px; /* Sets maximum width */
+    margin: 0 auto; /* Centers the container */
     padding: 10px;
-    text-align: left;
 }
 
+/* Styles for each section */
+.section {
+    background-color: #ffffff; /* Sets background color */
+    padding: 20px; /* Adds padding */
+    margin-bottom: 20px; /* Adds bottom margin */
+    border-radius: 8px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.section h2 {
+    text-align: center; /* Centers the section title */
+    margin-bottom: 10px; /* Adds bottom margin */
+}
+
+/* Styles for the table */
+table {
+    width: 100%; /* Makes the table full width */
+    border-collapse: collapse; /* Collapses table borders */
+    margin: 0 auto; /* Centers the table */
+    background-color: #ffffff; /* Sets the table background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Styles for table headers and cells */
+th, td {
+    border: 1px solid #cccccc; /* Adds a border to the cells */
+    padding: 10px; /* Adds padding */
+    text-align: left; /* Left-aligns the text */
+}
+
+/* Additional styles for headers */
 th {
-    background-color: #333333;
-    color: #ffffff;
-    font-weight: bold;
+    background-color: #333333; /* Sets background color */
+    color: #ffffff; /* Sets text color */
+    font-weight: bold; /* Makes text bold */
 }
 
+/* Styles for code elements within table cells */
 td code {
-    background-color: #eeeeee;
-    font-family: "Courier New", Courier, monospace;
-    padding: 2px 4px;
-    border-radius: 4px;
-    color: #333333;
+    background-color: #eeeeee; /* Sets background color */
+    font-family: "Courier New", Courier, monospace; /* Sets font family */
+    padding: 2px 4px; /* Adds padding */
+    border-radius: 4px; /* Rounds the corners */
+    color: #333333; /* Sets text color */
 }
 
+/* Styles for table headers in the thead section */
 thead th {
-    background-color: #555555;
+    background-color: #555555; /* Sets background color */
 }
 
+/* Styles for alternating table rows */
 tbody tr:nth-child(odd) {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* Sets background color for odd rows */
 }
 
+/* Styles for table rows on hover */
 tbody tr:hover {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; /* Sets background color on hover */
 }
 
+/* Styles for table headers that span multiple columns */
 th[colspan="3"] {
-    background-color: #777777;
-    color: #ffffff;
-    text-align: center;
+    background-color: #777777; /* Sets background color */
+    color: #ffffff; /* Sets text color */
+    text-align: center; /* Centers the text */
 }
 
+/* Ensures vertical alignment of table cells */
 tbody td {
-    vertical-align: top;
+    vertical-align: top; /* Aligns text to the top */
 }

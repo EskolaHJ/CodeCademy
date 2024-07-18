@@ -14,7 +14,7 @@ div#banner {
 
 .content {
     text-align: center;
-    color: white;
+    color: aqua;
 }
 
 h1,
@@ -37,7 +37,7 @@ h6 {
 }
 
 p {
-    color: white;
+    color: aqua;
 }
 
 .paragraph {
@@ -53,6 +53,21 @@ p {
     text-align: center;
 }
 
+
 .suffering {
+    color: aqua;
+}
+
+.Smite {
+    background-color: rgba(228, 195, 12, 0.884);
+    padding: 10px;
+    text-align: center;
+}
+
+#lokiSmite {
+    color: purple;
+}
+
+#smiteLoki {
     color: aqua;
 }
